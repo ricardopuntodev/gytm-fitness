@@ -1,0 +1,93 @@
+/*
+    Theme Name: GymFitnessTraining
+    Theme URL: bombo.tech
+    Author: Ricardo Garcia Avelar
+    Author URI: www.bombo.tech
+    Description:  Theme diseñado para el gimnasio GymFitness
+    Version: 1.0
+    Licence: GNU General Public Licence v2 or later
+    Licence URI: http://gnu.org/licenses/gpl-2.0.html
+    Tags: etiquetas, para, que, encuentren, tu, tema
+    Tags Domain: gymfitness
+*/
+
+/* Custom properties */
+
+/*
+    1. Agregamos box-sizing
+    2. Agregamos reset-rems
+*/
+:root{
+    /** Fuentes **/
+    --fuentePrincipal : 'Staatliches', cursive;
+    --fuenteTexto : 'Open Sans', sans-serif;
+    --fuenteSecundaria : 'Raleway', sans-serif;
+
+    /** Colores **/
+    --colorPrimario: #FF5B00;
+    --grisOscuro: #2F2E2E;
+    --grisClaro:#EBEBEB;
+    --blanco: #ffffff;
+    --black:#000000;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 10px = 1rem! */
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px; 
+    font-size: 1.6rem; 
+    line-height: 2;
+}
+
+/** Headings **/
+h1, h2, h3, h4 {
+    font-family: var(--fuentePrincipal);
+    margin: 1rem 0;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4.8rem;
+}
+
+h3 {
+    font-size: 3.6rem;
+}
+
+h4 {
+    font-size: 2.4rem;
+}
+
+/** Globales **/
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contenedor{
+    max-width: 1200px;
+    width: 95;
+    margin: 0 auto;
+}
